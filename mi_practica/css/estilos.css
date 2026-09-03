@@ -1,0 +1,121 @@
+/* Estilos generales */
+
+body {
+    background-color: #f2f4f8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    margin: 0;
+    }
+    
+    /* Encabezado */
+    
+    header {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    }
+    
+    h1 {
+    margin: 0;
+    font-size: 36px;
+    }
+    
+    h2 {
+    color: #34495e;
+    text-align: center;
+    margin-top: 30px;
+    }
+    
+    h3 {
+    color: #34495e;
+    font-size: 24px;
+    }
+    
+    /* Navegación */
+    
+    nav {
+    background-color: #2c3e50;
+    text-align: center;
+    padding: 15px;
+    }
+    
+    nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    }
+    
+    nav a:hover {
+    color: #f1c40f;
+    }
+    
+    /* Contenido */
+    
+    main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    }
+    
+    .presentacion {
+    text-align: center;
+    }
+    
+    p {
+    font-size: 17px;
+    line-height: 1.6;
+    }
+    
+    /* Imagen principal */
+    
+    .imagen-principal {
+    width: 500px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    }
+    
+    /* Contenedor de cards */
+    
+    .contenedor-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    }
+    
+    /* Cards */
+    
+    .card {
+    width: 350px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #d5d8dc;
+    border-radius: 15px;
+    background-color: white;
+    box-sizing: border-box;
+    }
+    
+    .card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    }
+    
+    .card p {
+    text-align: justify;
+    }
+    
+    /* Pie de página */
+    
+    footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    }
